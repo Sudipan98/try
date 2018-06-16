@@ -72,6 +72,9 @@ public class Main2Activity extends AppCompatActivity {
                         Intent intent = new Intent(Main2Activity.this, Main4Activity.class);
                         startActivity(intent);
                         break;
+                    case R.id.settings:
+                        Intent intent1=new Intent (Main2Activity.this,Main5Activity.class);
+                        startActivity(intent1);
 
                 }
 
