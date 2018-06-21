@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".Main7Activity">
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="145dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="80dp"
+        android:text="Enter Username : "
+
+        android:textColor="@color/colorTransperantWhite"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorTransperantWhite"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="144dp"
+        android:textColor="@color/colorTransperantWhite"
+        android:text="Date of Birth"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_alignStart="@+id/editText5"
+        android:ems="10"
+        android:textColor="@color/colorTransperantWhite"
+        android:hint="Date of Birth"
+        android:textSize="15dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="137dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="210dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorTransperantWhite"
+        android:text="Gender" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:id="@+id/radioSex"
+        android:layout_toEndOf="@+id/textView17">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textView19"
+            android:layout_marginEnd="121dp"
+            android:text="@string/Male"
+            android:textColor="@color/colorTransperantWhite" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView19"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="22dp"
+            android:text="@string/Female"
+            android:textColor="@color/colorTransperantWhite" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_centerVertical="true"
+        android:text="College"
+        android:textColor="@color/colorTransperantWhite"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioSex"
+        android:layout_toEndOf="@+id/textView17"
+        android:ems="10"
+        android:hint="College name"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorTransperantWhite"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/promptMsg"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText5"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginBottom="0dp" />
+</RelativeLayout>
