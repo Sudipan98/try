@@ -21,12 +21,12 @@ import java.util.Map;
  */
 
 public class api {
-    public static final String BASE_PLAYER_URL = "http://192.168.0.11/player/" ;
-    public static final String BASE_TASK_URL = "http://192.168.0.11/task/" ;
+    public static final String BASE_PLAYER_URL = "http://192.168.43.223/player/" ;
+    public static final String BASE_TASK_URL = "http://192.168.43.223/task/" ;
 
-    private static final String BASE_URL = "http://192.168.0.11/player/";
-    public static final String BASE_COACH_URL = "http://192.168.0.11/coach/" ;
-    public static final String BASE_GOAL_URL = "http://192.168.0.11/goal/" ;
+    private static final String BASE_URL = "http://192.168.43.223/player/";
+    public static final String BASE_COACH_URL = "http://192.168.43.223/coach/" ;
+    public static final String BASE_GOAL_URL = "http://192.168.43.223/goal/" ;
     //public  static String res;
     //private static AsyncHttpClient client = new AsyncHttpClient();
 
